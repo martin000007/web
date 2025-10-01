@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    margin: auto;
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+    padding: 1px;
+}
+table:hover{
+    background-color: lightgray;
+}
+th{
+    border-bottom: 5px solid black;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+th:hover{
+    background-color: blue;
+    a { color: white; }
+}
